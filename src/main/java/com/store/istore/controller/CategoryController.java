@@ -34,7 +34,8 @@ public class CategoryController {
     }
     @PutMapping("/{id}")
     public Category update(@PathVariable("id") Long id,@Valid @RequestBody Category category) {
-//        return categoryService.update(id,category);
+        //return categoryService.update(id,category);
+        System.out.println("");
         return null;
     }
 }
