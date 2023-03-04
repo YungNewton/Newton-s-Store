@@ -9,5 +9,7 @@ public class IStoreApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(IStoreApplication.class, args);
 	}
-
+	public void repeat(){
+		System.out.println("facts");
+	}
 }
