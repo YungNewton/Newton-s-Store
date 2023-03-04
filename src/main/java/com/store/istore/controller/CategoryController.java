@@ -2,6 +2,7 @@ package com.store.istore.controller;
 
 import com.store.istore.model.Category;
 import com.store.istore.service.CategoryService;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/controller")
+@Getter
 public class CategoryController {
 
     @Autowired
